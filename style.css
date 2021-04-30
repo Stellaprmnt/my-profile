@@ -1,0 +1,111 @@
+/* Colors and fonts */
+
+body {
+	background-image: url(image/holographic-background.png);
+	background-size: cover;
+	background-position: center;
+	color: black;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	text-align: justify;
+}
+h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+}
+h2{
+	font-weight: 700;
+}
+audio:hover {
+	transform: scale(1.02);
+	filter: drop-shadow(2px 2px 1px #333);
+}
+a {
+	text-decoration: none;
+	color:  #393B5A;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600
+	font-size: 16px;
+}
+a:hover {
+	color: black;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	background-image:
+}
+.card-glass {
+	background-color: linear-gradient(#A8D4DA, #BBC78C);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.audio-size {
+	width: 250px;
+	height: 50px;
+}
+.audio-glass {
+	background-color: linear-gradient(#A8D4DA, #BBC78C);
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 10px
+	margin: 10px 10px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #393B5A;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+	filter: drop-shadow(2px 2px 1px #333);
+}
+.title-fontsize {
+	font-size: 20px;
+	color: #6D4159;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #393B5A;
+	padding: 10px;
+	position: center;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: #6D4159;
+}
+
+/* Custom design with id */
+
+#intoduction p {
+	margin-bottom: 40px;
+}
+#title {
+	color: #6D4159;
+	font-size: 32px;
+	font-weight: 900;
+}
+#title-fontweight {
+	font-weight: 400;
+	color: #393B5A;
+}
+
